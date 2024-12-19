@@ -8,3 +8,4 @@ Udemy_Blazor
    <input type="number" @bind="@productobj.Price" @bind:event="oninput"/>
 
 - Drop Down Display and display which value was selected
+- Global Using statement
