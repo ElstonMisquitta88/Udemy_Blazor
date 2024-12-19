@@ -1,0 +1,71 @@
+﻿@page "/learnblazor/bindprop"
+<div class="row">
+    <div class="col-6 border p-3">
+        <h3 class="text-primary">Product Input</h3>
+        <hr />
+        Input Price :
+        <input type="number" @bind="@productobj.Price" @bind:event="oninput" />
+        <br />
+
+       
+        IsActive
+        <input type="checkbox" @bind="@productobj.IsActive" />
+        <br />
+
+        <span>Product Properties :</span>
+        <select @bind="selectedprop">
+            @foreach (var prop in productobj.ProductProperties)
+            {
+                <option value="@prop.Key">@prop.Key</option>
+            }
+        </select>
+    </div>
+
+    <div class="col-6 border p-3">
+        <h3 class="text-primary">Product Summary</h3>
+        <hr/>
+
+        Name :  @productobj.Name
+        <br />
+        IsActive :  @productobj.IsActive
+        <br />
+        Price : @productobj.Price
+        <br />
+        The Product is : @{
+            if (productobj.IsActive)
+            {
+                <span>Active</span>
+            }
+            else
+            {
+                <span>In Active</span>
+            }
+        }
+        <br />
+   
+        Selected Key : @selectedprop
+
+        <br />
+        @if (!string.IsNullOrEmpty(selectedprop))
+        {
+            <p> Selected Value : @productobj.ProductProperties.FirstOrDefault(a => a.Key == selectedprop).Value</p>
+        }
+    </div>
+</div>
+
+@code {
+    private string selectedprop = "";
+    Product productobj = new()
+        {
+            Id = 1,
+            Name = "Book",
+            IsActive = true,
+            Price = 10,
+            ProductProperties = new List<Product_Prop>()
+            {
+                new Product_Prop { Id = 1, Key = "Color", Value = "Red" },
+                new Product_Prop { Id = 1, Key = "Size", Value = "Blue" },
+                new Product_Prop { Id = 1, Key = "Flavor", Value = "Green" }
+            }
+        };
+}

@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\components\\pages\\learnblazor\\bindprop.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:components\\pages\\learnblazor\\bindprop.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\models\\product_prop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:models\\product_prop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +35,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product_Prop.cs",
+              "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Models\\Product_Prop.cs",
+              "RelativeDocumentMoniker": "Models\\Product_Prop.cs",
+              "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Models\\Product_Prop.cs",
+              "RelativeToolTip": "Models\\Product_Prop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T15:55:51.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:30:06.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BindProp.razor",
+              "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\LearnBlazor\\BindProp.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\LearnBlazor\\BindProp.razor",
+              "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\LearnBlazor\\BindProp.razor",
+              "RelativeToolTip": "Components\\Pages\\LearnBlazor\\BindProp.razor",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T16:18:24.458Z",
+              "EditorCaption": ""
             }
           ]
         }
