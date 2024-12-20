@@ -7,7 +7,7 @@
         <input type="number" @bind="@productobj.Price" @bind:event="oninput" />
         <br />
 
-       
+
         IsActive
         <input type="checkbox" @bind="@productobj.IsActive" />
         <br />
@@ -20,10 +20,9 @@
             }
         </select>
     </div>
-
     <div class="col-6 border p-3">
         <h3 class="text-primary">Product Summary</h3>
-        <hr/>
+        <hr />
 
         Name :  @productobj.Name
         <br />
@@ -42,7 +41,7 @@
             }
         }
         <br />
-   
+
         Selected Key : @selectedprop
 
         <br />
@@ -51,6 +50,38 @@
             <p> Selected Value : @productobj.ProductProperties.FirstOrDefault(a => a.Key == selectedprop).Value</p>
         }
     </div>
+
+    <div class="col-12 border p-4">
+        <h3 class="text-success">Product Table</h3>
+        <br />
+        
+        <table class="table table-striped">
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>IsActive</th>
+            </tr>
+            @foreach (var productitem in ProductList)
+            {
+                <tr>
+                    <td><input type="text" @bind="@productitem.Name" @bind:event="oninput" /></td>
+                    <td><input type="text" @bind="@productitem.Price" @bind:event="oninput" /></td>
+                    <td><input type="checkbox" @bind="@productitem.IsActive" /></td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="col-12 border p-4">
+        <h3 class="text-success">Product Table Summary</h3>
+        <br />
+
+        @foreach (var productitem in ProductList)
+        {
+            <p>@productitem.Name [@productitem.Price]  @(productitem.IsActive?" Is Active":" Inactive")</p>
+           
+        }
+    </div>
+
 </div>
 
 @code {
@@ -63,9 +94,46 @@
             Price = 10,
             ProductProperties = new List<Product_Prop>()
             {
-                new Product_Prop { Id = 1, Key = "Color", Value = "Red" },
-                new Product_Prop { Id = 1, Key = "Size", Value = "Blue" },
-                new Product_Prop { Id = 1, Key = "Flavor", Value = "Green" }
+                new Product_Prop { Id = 1, Key = "Flavor", Value = "Berry" },
+                new Product_Prop { Id = 2, Key = "Size", Value = "10ml" },
+                new Product_Prop { Id = 3, Key = "Color", Value = "Orange" }
             }
         };
+
+
+    List<Product> ProductList = new();
+    protected override void OnInitialized()
+    {
+
+        ProductList.Add(new()
+            {
+                Id = 1,
+                Name = "Midnight Blaze",
+                IsActive = true,
+                Price = 10,
+                ProductProperties = new List<Product_Prop>()
+                {
+                    new Product_Prop { Id = 1, Key = "Flavor", Value = "Berry" },
+                    new Product_Prop { Id = 2, Key = "Size", Value = "10ml" },
+                    new Product_Prop { Id = 3, Key = "Color", Value = "Orange" }
+                }
+            });
+
+
+        ProductList.Add(new()
+            {
+                Id = 1,
+                Name = "Blossom Lilly",
+                IsActive = true,
+                Price = 240,
+                ProductProperties = new List<Product_Prop>()
+                {
+                    new Product_Prop { Id = 1, Key = "Flavor", Value = "Coffee" },
+                    new Product_Prop { Id = 2, Key = "Size", Value = "30ml" },
+                    new Product_Prop { Id = 3, Key = "Color", Value = "Brown" }
+                }
+            });
+
+        base.OnInitialized();
+    }
 }
