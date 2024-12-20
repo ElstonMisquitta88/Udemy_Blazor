@@ -1,0 +1,86 @@
+﻿@page "/learnblazor/Demoproduct"
+
+<h3 class="text-success">Demo Product</h3>
+
+<div class="border p-2 mt-2 ">
+    <div class="row">
+        @foreach (var productitem in ProductList)
+        {
+            <div class="bg-light border m-1 col-5">
+                <h5 class="text-secondary">Product :@productitem.Id</h5>
+                <h5>Name :@productitem.Name</h5>
+                Show Properties : <input type="checkbox" @bind="productitem.IsActive" />
+
+                @if (productitem.IsActive)
+                {
+                    @foreach (var prop in productitem.ProductProperties)
+                    {
+                        <p>@prop.Key -  @prop.Value</p>
+                    }
+                }
+                @{
+                    prod_id_delete = @productitem.Id;
+                }
+                <p><button class="btn btn-danger" @onclick="()=>deleteproduct(prod_id_delete)" style="width:100px">Delete</button></p>
+            </div>
+
+        }
+    </div>
+</div>
+<div class="row pt-4">
+    <p><span>Count is : @Countervar</span></p>
+    <button class="btn btn-success" @onclick="increment" style="width:100px">Counter </button>
+</div>
+@code {
+    private int Countervar = 0;
+    private bool checkboxValue;
+
+    public int prod_id_delete = 0;
+
+    private void deleteproduct(int productid)
+    {
+        ProductList.RemoveAll(s => s.Id == productid);
+    }
+
+    private void increment()
+    {
+        Countervar = Countervar + 1;
+    }
+
+    List<Product> ProductList = new();
+    protected override void OnInitialized()
+    {
+
+        ProductList.Add(new()
+            {
+                Id = 1,
+                Name = "Midnight Blaze",
+                IsActive = true,
+                Price = 10,
+                ProductProperties = new List<Product_Prop>()
+                {
+                    new Product_Prop { Id = 1, Key = "Flavor", Value = "Berry" },
+                    new Product_Prop { Id = 2, Key = "Size", Value = "10ml" },
+                    new Product_Prop { Id = 3, Key = "Color", Value = "Orange" }
+                }
+            });
+
+
+        ProductList.Add(new()
+            {
+                Id = 2,
+                Name = "Blossom Lilly",
+                IsActive = false,
+                Price = 240,
+                ProductProperties = new List<Product_Prop>()
+                {
+                    new Product_Prop { Id = 1, Key = "Flavor", Value = "Coffee" },
+                    new Product_Prop { Id = 2, Key = "Size", Value = "30ml" },
+                    new Product_Prop { Id = 3, Key = "Color", Value = "Brown" }
+                }
+            });
+
+        base.OnInitialized();
+    }
+
+}

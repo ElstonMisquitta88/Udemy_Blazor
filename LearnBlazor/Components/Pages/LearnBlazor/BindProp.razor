@@ -12,7 +12,7 @@
         <input type="checkbox" @bind="@productobj.IsActive" />
         <br />
 
-        <span>Product Properties :</span>
+        <span>Product Properties : DropDown</span>
         <select @bind="selectedprop">
             @foreach (var prop in productobj.ProductProperties)
             {
@@ -20,6 +20,8 @@
             }
         </select>
     </div>
+
+
     <div class="col-6 border p-3">
         <h3 class="text-primary">Product Summary</h3>
         <hr />
