@@ -9,4 +9,5 @@ public class Product
     public bool IsActive { get; set; }
 
     public List<Product_Prop> ProductProperties { get; set; }
+
 }

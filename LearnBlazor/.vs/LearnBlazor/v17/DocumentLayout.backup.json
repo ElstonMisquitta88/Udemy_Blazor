@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\components\\pages\\learnblazor\\demoproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:components\\pages\\learnblazor\\demoproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\components\\pages\\learn_blazor\\demoproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:components\\pages\\learn_blazor\\demoproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\components\\pages\\learn_blazor\\learnblazorcomponents\\_deletebuttoncomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:components\\pages\\learn_blazor\\learnblazorcomponents\\_deletebuttoncomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,14 +37,44 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Components\\_Imports.razor",
+              "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\_Imports.razor",
+              "RelativeToolTip": "Components\\_Imports.razor",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwAsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T06:23:27.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_DeleteButtonComponent.razor",
+              "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_DeleteButtonComponent.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_DeleteButtonComponent.razor",
+              "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_DeleteButtonComponent.razor",
+              "RelativeToolTip": "Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_DeleteButtonComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T06:16:25.68Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Demoproduct.razor",
-              "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\LearnBlazor\\Demoproduct.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\LearnBlazor\\Demoproduct.razor",
-              "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\LearnBlazor\\Demoproduct.razor",
-              "RelativeToolTip": "Components\\Pages\\LearnBlazor\\Demoproduct.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAiAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\Demoproduct.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Learn_Blazor\\Demoproduct.razor",
+              "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\Demoproduct.razor",
+              "RelativeToolTip": "Components\\Pages\\Learn_Blazor\\Demoproduct.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-20T17:29:44.121Z",
               "EditorCaption": ""

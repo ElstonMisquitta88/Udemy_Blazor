@@ -10,7 +10,7 @@
                 <h5 class="text-secondary">Product :@productitem.Id</h5>
                 <h5>Name :@productitem.Name</h5>
                 Show Properties : <input type="checkbox" @bind="productitem.IsActive" />
-
+                <br />
                 @if (productitem.IsActive)
                 {
                     @foreach (var prop in productitem.ProductProperties)
@@ -18,31 +18,18 @@
                         <p>@prop.Key -  @prop.Value</p>
                     }
                 }
-
-                <p><button class="btn btn-danger" @onclick="()=>deleteproduct(productitem.Id)" style="width:100px">Delete</button></p>
+               
+                <p>
+                    <_DeleteButtonComponent ProductId="productitem.Id" />
+                </p>
             </div>
-
         }
     </div>
 </div>
-<div class="row pt-4">
-    <p><span>Count is : @Countervar</span></p>
-    <button class="btn btn-success" @onclick="increment" style="width:100px">Counter </button>
-</div>
+
+
+
 @code {
-    private int Countervar = 0;
-    private bool checkboxValue;
-
-    private void deleteproduct(int productid)
-    {
-        ProductList.RemoveAll(s => s.Id == productid);
-    }
-
-    private void increment()
-    {
-        Countervar = Countervar + 1;
-    }
-
     List<Product> ProductList = new();
     protected override void OnInitialized()
     {

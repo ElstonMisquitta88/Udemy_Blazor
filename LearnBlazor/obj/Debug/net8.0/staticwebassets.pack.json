@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LearnBlazor.bundle.scp.css",
-      "PackagePath": "staticwebassets\\LearnBlazor.bundle.scp.css"
+      "PackagePath": "staticwebassets\\LearnBlazor.ror83iowq8.bundle.scp.css"
     },
     {
       "Id": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\wwwroot\\app.css",
@@ -19,6 +19,10 @@
     {
       "Id": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LearnBlazor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LearnBlazor.Microsoft.AspNetCore.StaticWebAssets.props",

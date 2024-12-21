@@ -28,3 +28,7 @@ D:\GitHub\Udemy_Blazor\LearnBlazor\bin\Debug\net8.0\LearnBlazor.dll
 D:\GitHub\Udemy_Blazor\LearnBlazor\bin\Debug\net8.0\LearnBlazor.pdb
 D:\GitHub\Udemy_Blazor\LearnBlazor\obj\Debug\net8.0\LearnBlazor.genruntimeconfig.cache
 D:\GitHub\Udemy_Blazor\LearnBlazor\obj\Debug\net8.0\ref\LearnBlazor.dll
+D:\GitHub\Udemy_Blazor\LearnBlazor\bin\Debug\net8.0\LearnBlazor.staticwebassets.endpoints.json
+D:\GitHub\Udemy_Blazor\LearnBlazor\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\GitHub\Udemy_Blazor\LearnBlazor\obj\Debug\net8.0\staticwebassets\msbuild.LearnBlazor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\GitHub\Udemy_Blazor\LearnBlazor\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
