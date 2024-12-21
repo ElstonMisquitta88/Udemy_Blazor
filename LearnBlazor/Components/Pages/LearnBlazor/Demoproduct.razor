@@ -18,10 +18,8 @@
                         <p>@prop.Key -  @prop.Value</p>
                     }
                 }
-                @{
-                    prod_id_delete = @productitem.Id;
-                }
-                <p><button class="btn btn-danger" @onclick="()=>deleteproduct(prod_id_delete)" style="width:100px">Delete</button></p>
+
+                <p><button class="btn btn-danger" @onclick="()=>deleteproduct(productitem.Id)" style="width:100px">Delete</button></p>
             </div>
 
         }
@@ -34,8 +32,6 @@
 @code {
     private int Countervar = 0;
     private bool checkboxValue;
-
-    public int prod_id_delete = 0;
 
     private void deleteproduct(int productid)
     {
