@@ -1,31 +1,34 @@
 ﻿<div class="bg-light border m-1 col-5">
-    <h5 class="text-secondary">Product :@ProductId</h5>
-    <h5>Name :@ProductName</h5>
-    Show Properties : <input type="checkbox" @bind="IsActive" />
+
+    Add to Favourite : <input type="checkbox" @onchange="FavouriteUpdated" />
+    
+    <h5 class="text-secondary">Product :@Productobj.Id</h5>
+    <h5>Name :@Productobj.Name</h5>
+    Show Properties : <input type="checkbox" @bind="Productobj.IsActive" />
     <br />
-    @if (IsActive)
+    @if (Productobj.IsActive)
     {
-        @foreach (var prop in ProductProperties)
+        @foreach (var prop in Productobj.ProductProperties)
         {
             <p>@prop.Key -  @prop.Value</p>
         }
     }
 
     <p>
-        <_DeleteButtonComponent ProductId="@ProductId" />
+        <_DeleteButtonComponent ProductId="@Productobj.Id">
+        </_DeleteButtonComponent>
     </p>
 </div>
 
 @code {
     [Parameter]
-    public int ProductId { get; set; }
+    public Product Productobj { get; set; }
 
     [Parameter]
-    public string ProductName { get; set; }
+    public EventCallback<bool> OnFavouriteUpdated { get; set; }
 
-    [Parameter]
-    public bool IsActive { get; set; }
-
-    [Parameter]
-    public List<Product_Prop> ProductProperties { get; set; }
+    private async Task FavouriteUpdated(ChangeEventArgs e)
+    {
+        await OnFavouriteUpdated.InvokeAsync(Convert.ToBoolean(e.Value));
+    }
 }

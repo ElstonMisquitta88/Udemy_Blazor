@@ -1,18 +1,24 @@
 ﻿@page "/learnblazor/Demoproduct_Comp"
 
 <h3 class="text-success">Demoproduct  With Components</h3>
+<span class="text-danger">Favourite Count : @FavouriteCount</span>
 
 <div class="border p-2 mt-2 ">
     <div class="row">
         @foreach (var productitem in ProductList)
         {
-            <_ProductComponent ProductId="@productitem.Id" ProductName="@productitem.Name" IsActive="@productitem.IsActive" ProductProperties="@productitem.ProductProperties" />
+            <_ProductComponent 
+                Productobj="@productitem"
+                OnFavouriteUpdated="FavouriteCountChange">
+            </_ProductComponent>
         }
     </div>
 </div>
 
 @code {
     List<Product> ProductList = new();
+    public int FavouriteCount { get; set; }
+
     protected override void OnInitialized()
     {
 
@@ -48,5 +54,16 @@
         base.OnInitialized();
     }
 
+    protected void FavouriteCountChange(bool isSelected)
+    {
+        if (isSelected)
+        {
+            FavouriteCount++;
+        }
+        else
+        {
+            FavouriteCount--;
+        }
+    }
 }
 
