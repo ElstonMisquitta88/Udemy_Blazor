@@ -1,0 +1,31 @@
+﻿<div class="bg-light border m-1 col-5">
+    <h5 class="text-secondary">Product :@ProductId</h5>
+    <h5>Name :@ProductName</h5>
+    Show Properties : <input type="checkbox" @bind="IsActive" />
+    <br />
+    @if (IsActive)
+    {
+        @foreach (var prop in ProductProperties)
+        {
+            <p>@prop.Key -  @prop.Value</p>
+        }
+    }
+
+    <p>
+        <_DeleteButtonComponent ProductId="@ProductId" />
+    </p>
+</div>
+
+@code {
+    [Parameter]
+    public int ProductId { get; set; }
+
+    [Parameter]
+    public string ProductName { get; set; }
+
+    [Parameter]
+    public bool IsActive { get; set; }
+
+    [Parameter]
+    public List<Product_Prop> ProductProperties { get; set; }
+}

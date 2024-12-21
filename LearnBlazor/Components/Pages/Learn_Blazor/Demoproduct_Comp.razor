@@ -1,0 +1,52 @@
+﻿@page "/learnblazor/Demoproduct_Comp"
+
+<h3 class="text-success">Demoproduct  With Components</h3>
+
+<div class="border p-2 mt-2 ">
+    <div class="row">
+        @foreach (var productitem in ProductList)
+        {
+            <_ProductComponent ProductId="@productitem.Id" ProductName="@productitem.Name" IsActive="@productitem.IsActive" ProductProperties="@productitem.ProductProperties" />
+        }
+    </div>
+</div>
+
+@code {
+    List<Product> ProductList = new();
+    protected override void OnInitialized()
+    {
+
+        ProductList.Add(new()
+            {
+                Id = 1,
+                Name = "Midnight Blaze",
+                IsActive = true,
+                Price = 10,
+                ProductProperties = new List<Product_Prop>()
+                {
+                    new Product_Prop { Id = 1, Key = "Flavor", Value = "Berry" },
+                    new Product_Prop { Id = 2, Key = "Size", Value = "10ml" },
+                    new Product_Prop { Id = 3, Key = "Color", Value = "Orange" }
+                }
+            });
+
+
+        ProductList.Add(new()
+            {
+                Id = 2,
+                Name = "Blossom Lilly",
+                IsActive = false,
+                Price = 240,
+                ProductProperties = new List<Product_Prop>()
+                {
+                    new Product_Prop { Id = 1, Key = "Flavor", Value = "Coffee" },
+                    new Product_Prop { Id = 2, Key = "Size", Value = "30ml" },
+                    new Product_Prop { Id = 3, Key = "Color", Value = "Brown" }
+                }
+            });
+
+        base.OnInitialized();
+    }
+
+}
+
