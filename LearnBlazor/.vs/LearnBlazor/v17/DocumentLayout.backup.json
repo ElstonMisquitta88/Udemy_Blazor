@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\components\\pages\\learn_blazor\\learnblazorcomponents\\_productcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:components\\pages\\learn_blazor\\learnblazorcomponents\\_productcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\components\\pages\\learn_blazor\\learnblazorcomponents\\_childcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:components\\pages\\learn_blazor\\learnblazorcomponents\\_childcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\components\\pages\\learn_blazor\\demoproduct_comp.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:components\\pages\\learn_blazor\\demoproduct_comp.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\components\\pages\\learn_blazor\\demoproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:components\\pages\\learn_blazor\\demoproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\components\\pages\\learn_blazor\\parentcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:components\\pages\\learn_blazor\\parentcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,41 +38,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Demoproduct.razor",
-              "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\Demoproduct.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Learn_Blazor\\Demoproduct.razor",
-              "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\Demoproduct.razor",
-              "RelativeToolTip": "Components\\Pages\\Learn_Blazor\\Demoproduct.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-21T12:49:08.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_ProductComponent.razor",
-              "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_ProductComponent.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_ProductComponent.razor",
-              "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_ProductComponent.razor",
-              "RelativeToolTip": "Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_ProductComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "Title": "_ChildComponent.razor",
+              "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_ChildComponent.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_ChildComponent.razor",
+              "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_ChildComponent.razor",
+              "RelativeToolTip": "Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_ChildComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-21T10:49:00.264Z",
+              "WhenOpened": "2024-12-22T14:33:36.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Demoproduct_Comp.razor",
-              "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\Demoproduct_Comp.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Learn_Blazor\\Demoproduct_Comp.razor",
-              "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\Demoproduct_Comp.razor",
-              "RelativeToolTip": "Components\\Pages\\Learn_Blazor\\Demoproduct_Comp.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
+              "Title": "ParentComponent.razor",
+              "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\ParentComponent.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Learn_Blazor\\ParentComponent.razor",
+              "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\ParentComponent.razor",
+              "RelativeToolTip": "Components\\Pages\\Learn_Blazor\\ParentComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-21T11:18:09.142Z",
+              "WhenOpened": "2024-12-22T14:32:01.924Z",
               "EditorCaption": ""
             }
           ]

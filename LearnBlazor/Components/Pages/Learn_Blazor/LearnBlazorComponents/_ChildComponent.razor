@@ -1,0 +1,18 @@
+﻿<h3>_ChildComponent</h3>
+<div>
+
+    <div class="alert alert-info">
+        @Title
+    </div>
+
+    <div class="alert alert-success">
+        @ChildContent
+    </div>
+</div>
+@code {
+    [Parameter]
+    public string Title { get; set; }
+
+    [Parameter]
+    public string ChildContent { get; set; }
+}

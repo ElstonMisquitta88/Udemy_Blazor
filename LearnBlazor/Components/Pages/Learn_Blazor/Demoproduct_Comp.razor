@@ -1,8 +1,8 @@
 ﻿@page "/learnblazor/Demoproduct_Comp"
 
 <h3 class="text-success">Demoproduct  With Components</h3>
-<span class="text-danger">Favourite Count : @FavouriteCount</span>
 
+<span class="text-danger">Favourite Count : @FavouriteCount</span>
 <span class="text-danger">Product Selected is : @DivSelected</span>
 
 
@@ -21,7 +21,6 @@
 @code {
     List<Product> ProductList = new();
     public int FavouriteCount { get; set; }
-
     public string DivSelected { get; set; }
 
     protected override void OnInitialized()
@@ -64,7 +63,6 @@
     {
         DivSelected = ProductName;
     }
-
     protected void FavouriteCountChange(bool isSelected)
     {
         if (isSelected)
