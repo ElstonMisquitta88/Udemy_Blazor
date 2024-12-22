@@ -3,13 +3,16 @@
 <h3 class="text-success">Demoproduct  With Components</h3>
 <span class="text-danger">Favourite Count : @FavouriteCount</span>
 
+<span class="text-danger">Product Selected is : @DivSelected</span>
+
+
 <div class="border p-2 mt-2 ">
     <div class="row">
         @foreach (var productitem in ProductList)
         {
-            <_ProductComponent 
-                Productobj="@productitem"
-                OnFavouriteUpdated="FavouriteCountChange">
+            <_ProductComponent Productobj="@productitem"
+                               OnFavouriteUpdated="FavouriteCountChange"
+                               OnDivSelected="DivSelectedByParent">
             </_ProductComponent>
         }
     </div>
@@ -18,6 +21,8 @@
 @code {
     List<Product> ProductList = new();
     public int FavouriteCount { get; set; }
+
+    public string DivSelected { get; set; }
 
     protected override void OnInitialized()
     {
@@ -52,6 +57,12 @@
             });
 
         base.OnInitialized();
+    }
+
+
+    protected void DivSelectedByParent(string ProductName)
+    {
+        DivSelected = ProductName;
     }
 
     protected void FavouriteCountChange(bool isSelected)

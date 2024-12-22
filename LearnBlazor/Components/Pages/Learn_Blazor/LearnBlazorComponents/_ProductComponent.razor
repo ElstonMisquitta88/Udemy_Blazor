@@ -1,7 +1,6 @@
-﻿<div class="bg-light border m-1 col-5">
-
+﻿<div class="bg-light border m-1 col-5" @onclick="(() => DivSelected(Productobj.Name))">
     Add to Favourite : <input type="checkbox" @onchange="FavouriteUpdated" />
-    
+
     <h5 class="text-secondary">Product :@Productobj.Id</h5>
     <h5>Name :@Productobj.Name</h5>
     Show Properties : <input type="checkbox" @bind="Productobj.IsActive" />
@@ -20,6 +19,8 @@
     </p>
 </div>
 
+
+
 @code {
     [Parameter]
     public Product Productobj { get; set; }
@@ -27,8 +28,19 @@
     [Parameter]
     public EventCallback<bool> OnFavouriteUpdated { get; set; }
 
+    [Parameter]
+    public EventCallback<string> OnDivSelected { get; set; }
+
+
     private async Task FavouriteUpdated(ChangeEventArgs e)
     {
         await OnFavouriteUpdated.InvokeAsync(Convert.ToBoolean(e.Value));
+    }
+
+
+
+    private async Task DivSelected(string _productname)
+    {
+        await OnDivSelected.InvokeAsync(_productname);
     }
 }
