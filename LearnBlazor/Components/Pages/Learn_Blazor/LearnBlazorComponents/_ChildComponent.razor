@@ -8,11 +8,17 @@
     <div class="alert alert-success">
         @ChildContent
     </div>
+
+    <input type="button" class="btn btn-primary" value="Show Message" @onclick="OnButtonClick" />
 </div>
 @code {
     [Parameter]
     public string Title { get; set; }
 
     [Parameter]
-    public string ChildContent { get; set; }
+    public RenderFragment ChildContent { get; set; }
+
+    [Parameter]
+    public EventCallback OnButtonClick { get; set; }
+
 }
