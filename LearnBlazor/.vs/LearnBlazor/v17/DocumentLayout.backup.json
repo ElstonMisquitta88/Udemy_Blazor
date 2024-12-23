@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\components\\pages\\learn_blazor\\learnblazorcomponents\\_childcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:components\\pages\\learn_blazor\\learnblazorcomponents\\_childcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\components\\pages\\learn_blazor\\learnblazorcomponents\\_grandchildcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:components\\pages\\learn_blazor\\learnblazorcomponents\\_grandchildcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +42,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_GrandChildComponent.razor",
+              "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_GrandChildComponent.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_GrandChildComponent.razor",
+              "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_GrandChildComponent.razor",
+              "RelativeToolTip": "Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_GrandChildComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T15:54:45.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "_ChildComponent.razor",
               "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_ChildComponent.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_ChildComponent.razor",
               "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_ChildComponent.razor",
               "RelativeToolTip": "Components\\Pages\\Learn_Blazor\\LearnBlazorComponents\\_ChildComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-22T15:02:51.413Z",
               "EditorCaption": ""
@@ -57,7 +74,7 @@
               "RelativeDocumentMoniker": "Components\\Pages\\Learn_Blazor\\ParentComponent.razor",
               "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\ParentComponent.razor",
               "RelativeToolTip": "Components\\Pages\\Learn_Blazor\\ParentComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-22T15:29:12.811Z",
               "EditorCaption": ""
