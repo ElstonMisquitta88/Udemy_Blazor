@@ -1,0 +1,23 @@
+﻿@page "/LearnRouting"
+@page "/LearnRouting/{param1:int}"
+@page "/LearnRouting/{param1:int}/{param2}"
+
+@page "/learnblazor/LearnRouting"
+
+<h3>LearnRouting</h3>
+<p>
+    Value passed (1) >> @param1
+</p>
+
+<p>
+    Value passed (2) >> @param2
+</p>
+
+@code {
+    [Parameter]
+    public int param1 { get; set; }
+
+    [Parameter]
+    public string param2 { get; set; }
+
+}
