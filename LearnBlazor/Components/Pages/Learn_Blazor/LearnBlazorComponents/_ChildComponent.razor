@@ -12,7 +12,7 @@
     <input type="button" class="btn btn-primary" value="Show Message" @onclick="OnButtonClick" />
 
 
-    <_GrandChildComponent MessageForGrandChild="@MessageForGrandChild">
+    <_GrandChildComponent>
     </_GrandChildComponent>
 </div>
 @code {
@@ -24,9 +24,4 @@
 
     [Parameter]
     public EventCallback OnButtonClick { get; set; }
-
-    [Parameter]
-    public string MessageForGrandChild { get; set; }
-
-
 }

@@ -3,10 +3,16 @@
 <div class="row">
     <div class="alert alert-info">
        GrandChild Message >>>>  @MessageForGrandChild
+        <br />
+       Lucky Number  >>>> @Luckynumber
     </div>
 </div>
 
 @code {
-    [Parameter]
+    [CascadingParameter(Name = "MessagetoDisplay")]
     public string MessageForGrandChild { get; set; }
+
+
+    [CascadingParameter(Name = "LuckynumbertoDisplay")]
+    public int Luckynumber { get; set; }
 }

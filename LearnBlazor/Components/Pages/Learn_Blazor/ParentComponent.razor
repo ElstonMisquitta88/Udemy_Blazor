@@ -2,12 +2,14 @@
 
 <h3>ParentComponent</h3>
 
-<_ChildComponent OnButtonClick="ShowMessage"
-                 Title="This title is from Parent Component"
-                 MessageForGrandChild="This message is from Parent Component to GrandChild">
-This is Details
-</_ChildComponent>
-
+<CascadingValue Value="@MessageForGrandChild" Name="MessagetoDisplay">
+    <CascadingValue Value="@Luckynumber" Name="LuckynumbertoDisplay">
+        <_ChildComponent OnButtonClick="ShowMessage"
+                         Title="This title is from Parent Component">
+            This is Details
+        </_ChildComponent>
+    </CascadingValue>
+</CascadingValue>
 
 
 <br />
@@ -16,6 +18,9 @@ This is Details
 </div>
 
 @code {
+    private string MessageForGrandChild = "This message is from Parent Component to GrandChild";
+    private int Luckynumber = 7;
+
     public string? messagetext = "";
 
     private void ShowMessage()
