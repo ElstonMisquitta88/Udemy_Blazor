@@ -1,4 +1,5 @@
 ﻿@page "/LearnRouting"
+
 @page "/LearnRouting/{param1}"
 @page "/LearnRouting/{param1}/{param2}"
 @page "/learnblazor/LearnRouting"
@@ -23,7 +24,7 @@
             string[] subs = Pageparameters.Split('/');
             foreach (var sub in subs)
             {
-            <p>@sub</p>
+                <p>@sub</p>
             }
         }
 
@@ -45,12 +46,17 @@
     [Parameter]
     public string Pageparameters { get; set; } = "";
 
+
     private void LoadParameter()
     {
         var uri = new Uri(_NavigationManager.Uri);
         var query = Microsoft.AspNetCore.WebUtilities.QueryHelpers.ParseQuery(uri.Query);
         param1 = query["param1"];
         param2 = query["param2"];
+
+        // [+] Force Refresh
+        //_NavigationManager.Refresh(true);
+        // [-] Force Refresh
     }
 
 }
