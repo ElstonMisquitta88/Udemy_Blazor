@@ -1,23 +1,56 @@
 ﻿@page "/LearnRouting"
-@page "/LearnRouting/{param1:int}"
-@page "/LearnRouting/{param1:int}/{param2}"
-
+@page "/LearnRouting/{param1}"
+@page "/LearnRouting/{param1}/{param2}"
 @page "/learnblazor/LearnRouting"
+@page "/learnblazor/catch-all/{*Pageparameters}"
+
+@inject NavigationManager _NavigationManager
 
 <h3>LearnRouting</h3>
 <p>
-    Value passed (1) >> @param1
+    Param 1 Value >> @param1
 </p>
 
 <p>
-    Value passed (2) >> @param2
+    Param 2 Value >> @param2
 </p>
+
+<p>
+    catch-all Page Parameters >>
+    @{
+        if (Pageparameters != null)
+        {
+            string[] subs = Pageparameters.Split('/');
+            foreach (var sub in subs)
+            {
+            <p>@sub</p>
+            }
+        }
+
+    }
+
+
+</p>
+
+<a href="LearnRouting?param1=Elston&param2=Misquitta" class="btn btn-primary"> Navigate to Query String</a>
+<button class="btn btn-success" @onclick="LoadParameter">Load Parameter</button>
 
 @code {
     [Parameter]
-    public int param1 { get; set; }
+    public string param1 { get; set; } = "";
 
     [Parameter]
-    public string param2 { get; set; }
+    public string param2 { get; set; } = "";
+
+    [Parameter]
+    public string Pageparameters { get; set; } = "";
+
+    private void LoadParameter()
+    {
+        var uri = new Uri(_NavigationManager.Uri);
+        var query = Microsoft.AspNetCore.WebUtilities.QueryHelpers.ParseQuery(uri.Query);
+        param1 = query["param1"];
+        param2 = query["param2"];
+    }
 
 }
