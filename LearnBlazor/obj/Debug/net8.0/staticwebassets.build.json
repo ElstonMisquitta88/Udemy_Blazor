@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "A/DfRQQSzTFBljKHdZ+Bd44gQta1Rz8vGY88NgLHAa0=",
+  "Hash": "+I3k27tiOI5YcHMKdK+7zQe86ocOVvyr5GcyfHhWR1c=",
   "Source": "LearnBlazor",
   "BasePath": "_content/LearnBlazor",
   "Mode": "Default",
@@ -141,6 +141,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\wwwroot\\js\\common.js",
+      "SourceId": "LearnBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\wwwroot\\",
+      "BasePath": "_content/LearnBlazor",
+      "RelativePath": "js/common#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rijyifiv2g",
+      "Integrity": "U2VAAJsx90dDcvqAR9bjLadZwZBr1fBsvcbIJUhtaF8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\common.js"
     }
   ],
   "Endpoints": [
@@ -469,6 +490,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "js/common.js",
+      "AssetFile": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\wwwroot\\js\\common.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U2VAAJsx90dDcvqAR9bjLadZwZBr1fBsvcbIJUhtaF8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 15:45:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U2VAAJsx90dDcvqAR9bjLadZwZBr1fBsvcbIJUhtaF8="
+        }
+      ]
+    },
+    {
+      "Route": "js/common.rijyifiv2g.js",
+      "AssetFile": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\wwwroot\\js\\common.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U2VAAJsx90dDcvqAR9bjLadZwZBr1fBsvcbIJUhtaF8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 15:45:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rijyifiv2g"
+        },
+        {
+          "Name": "label",
+          "Value": "js/common.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U2VAAJsx90dDcvqAR9bjLadZwZBr1fBsvcbIJUhtaF8="
         }
       ]
     },

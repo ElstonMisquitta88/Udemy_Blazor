@@ -411,6 +411,88 @@
           "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
         }
       ]
+    },
+    {
+      "Route": "js/common.js",
+      "AssetFile": "js/common.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U2VAAJsx90dDcvqAR9bjLadZwZBr1fBsvcbIJUhtaF8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 15:45:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U2VAAJsx90dDcvqAR9bjLadZwZBr1fBsvcbIJUhtaF8="
+        }
+      ]
+    },
+    {
+      "Route": "js/common.rijyifiv2g.js",
+      "AssetFile": "js/common.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U2VAAJsx90dDcvqAR9bjLadZwZBr1fBsvcbIJUhtaF8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 15:45:45 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rijyifiv2g"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U2VAAJsx90dDcvqAR9bjLadZwZBr1fBsvcbIJUhtaF8="
+        },
+        {
+          "Name": "label",
+          "Value": "js/common.js"
+        }
+      ]
     }
   ]
 }

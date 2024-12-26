@@ -1,0 +1,75 @@
+﻿@page "/blazorjs"
+@using LearnBlazor.Helper
+
+@inject IJSRuntime _JSRuntime
+
+<h3>Blazor Js</h3>
+
+
+<div class="row">
+    <button style="width:200px" class="btn btn-primary" @onclick="ConfirmDelete">Test Confirm Button</button>
+</div>
+
+<br/>
+<div class="row">
+    @{
+        if (ConfirmResult)
+        {
+            <div class="alert alert-success" style="width:400px" role="alert">
+                You have confirmed
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-danger" style="width:400px" role="alert">
+                You have not confirmed
+            </div>
+        }
+    }
+</div>
+<div class="row">
+    <button class="btn btn-success m-2" style="width:200px" @onclick="toastrSuccess">Toastr Success</button>
+    <button class="btn btn-danger m-2" style="width:200px" @onclick="toastrFailure">Toastr Failure</button>
+</div>
+<br/>
+
+<p>Sweet Alert Notification</p>
+<div class="row">
+    <button class="btn btn-success m-2" style="width:200px" @onclick="sweetalertSuccess">Sweetalert Success</button>
+    <button class="btn btn-success m-2" style="width:200px" @onclick="sweetalerterror">Sweetalert Error</button>
+</div>
+
+
+@code {
+    private string confirmMessage = "Are you sure you want to delete this item?";
+    private bool ConfirmResult {get; set; }
+
+
+    private async Task sweetalertSuccess()
+    {
+        await _JSRuntime.InvokeVoidAsync("sweetalert2", "success", "Success Notification");
+    }
+
+    private async Task sweetalerterror()
+    {
+        await _JSRuntime.InvokeVoidAsync("sweetalert2", "error", "Error Notification");
+    }
+
+    private async Task ConfirmDelete()
+    {
+        ConfirmResult = (await _JSRuntime.InvokeAsync<bool>("confirm", confirmMessage));
+    }
+
+    private async Task toastrSuccess()
+    {
+        //await _JSRuntime.InvokeVoidAsync("showToastr", "success", "Success Notification");
+        await _JSRuntime.toastrSuccess("Success Notification");
+    }
+
+    private async Task toastrFailure()
+    {
+        //await _JSRuntime.InvokeVoidAsync("showToastr", "error", "Failure Notification");
+        await _JSRuntime.toastrError("Failure Notification");
+    }
+
+}

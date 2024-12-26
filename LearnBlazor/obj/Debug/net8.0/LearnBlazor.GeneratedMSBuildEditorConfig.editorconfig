@@ -40,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMZWFybl9CbGF6b3JcQmluZFByb3AucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/GitHub/Udemy_Blazor/LearnBlazor/Components/Pages/Learn_Blazor/Blazorjs.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMZWFybl9CbGF6b3JcQmxhem9yanMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/GitHub/Udemy_Blazor/LearnBlazor/Components/Pages/Learn_Blazor/Demoproduct.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMZWFybl9CbGF6b3JcRGVtb3Byb2R1Y3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
