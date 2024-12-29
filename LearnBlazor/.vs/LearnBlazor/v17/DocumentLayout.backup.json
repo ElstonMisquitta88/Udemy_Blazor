@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\components\\pages\\learn_blazor\\blazorjs.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:components\\pages\\learn_blazor\\blazorjs.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\components\\pages\\learn_blazor\\lifecyclecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:components\\pages\\learn_blazor\\lifecyclecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\wwwroot\\js\\common.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:wwwroot\\js\\common.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\components\\pages\\learn_blazor\\lifecyclechildcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:components\\pages\\learn_blazor\\lifecyclechildcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|d:\\github\\udemy_blazor\\learnblazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DBFFC70-4AA2-40B4-9E64-2B8ED2A02788}|LearnBlazor.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEoAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T16:49:41.186Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
@@ -39,27 +57,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "common.js",
-              "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\wwwroot\\js\\common.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\common.js",
-              "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\wwwroot\\js\\common.js",
-              "RelativeToolTip": "wwwroot\\js\\common.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-26T15:19:17.165Z",
+              "Title": "LifeCycleChildComponent.razor",
+              "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\LifeCycleChildComponent.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Learn_Blazor\\LifeCycleChildComponent.razor",
+              "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\LifeCycleChildComponent.razor",
+              "RelativeToolTip": "Components\\Pages\\Learn_Blazor\\LifeCycleChildComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-29T16:36:35.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Blazorjs.razor",
-              "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\Blazorjs.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Learn_Blazor\\Blazorjs.razor",
-              "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\Blazorjs.razor",
-              "RelativeToolTip": "Components\\Pages\\Learn_Blazor\\Blazorjs.razor",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAADAAAAAAAAAA==",
+              "Title": "LifeCycleComponent.razor",
+              "DocumentMoniker": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\LifeCycleComponent.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Learn_Blazor\\LifeCycleComponent.razor",
+              "ToolTip": "D:\\GitHub\\Udemy_Blazor\\LearnBlazor\\Components\\Pages\\Learn_Blazor\\LifeCycleComponent.razor",
+              "RelativeToolTip": "Components\\Pages\\Learn_Blazor\\LifeCycleComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-26T15:35:00.469Z",
+              "WhenOpened": "2024-12-29T16:35:21.247Z",
               "EditorCaption": ""
             }
           ]

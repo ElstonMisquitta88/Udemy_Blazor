@@ -1,0 +1,25 @@
+﻿@{
+    foreach (var item in lifeCycleEvents)
+    {
+        <p>@item</p>
+        <hr />
+    }
+}
+
+@code {
+    [Parameter]
+    public int countval { get; set; }
+
+    List<string> lifeCycleEvents = new List<string>();
+
+    protected override void OnInitialized()
+    {
+        lifeCycleEvents.Add("OnInitialized - (CHILD) was Called");
+    }
+
+    protected override void OnParametersSet()
+    {
+        lifeCycleEvents.Add("OnParametersSet - (CHILD) was Called");
+    }
+
+}
